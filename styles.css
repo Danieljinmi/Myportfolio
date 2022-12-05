@@ -406,6 +406,7 @@ padding-top: 80px;
         height: 554.4px;
         width: 335.34px;
         transition: all .2s ease-in-out;
+       
     }
     .project2mobile:hover{
         scale: 1.05;
@@ -432,7 +433,7 @@ padding-top: 80px;
         justify-content: center;
         align-items: center;
         padding: 0px;
-        gap: 28.65px;
+        gap: 10px;
     }
     .row2{
         display: flex;
@@ -475,6 +476,7 @@ align-items: center;
 padding: 0px;
 gap: 15px;
 padding-bottom: 10px;
+
         }
     .myface{
         height: 325px;
