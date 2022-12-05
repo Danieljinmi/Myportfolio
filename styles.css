@@ -135,6 +135,7 @@ border: none;}
 
 
 
+
 .projects{
     align-items: center;
     justify-content: center;
@@ -200,7 +201,7 @@ border: none;}
 .row2{
     display: flex;
     flex-direction: row;
-    gap: 34px;
+    gap: 15px;
     padding-top: 34px;  
 }
 
@@ -250,6 +251,25 @@ border: none;}
 padding-left: 875px;
 padding-top: 20px;
 }
+.button3{
+    background-color: #323232;
+    width: 204px;
+    height: 55px;
+    
+    font-family: "Inter";
+    
+    font-weight: 500px;
+    font-size: 24px;
+    border-radius: 10px;
+    color: #F5F5F5 ;
+    
+}
+.button3:hover{
+    opacity: 50%;
+}
+.buttondiv2{
+    padding-top: 20px;
+}
 
 .project3mobile{
     display: none;
@@ -260,7 +280,7 @@ padding-top: 20px;
 }
 
 
-@media only screen and (max-width: 700px)
+@media only screen and (max-width: 490px)
 {
     header{
         align-items: center;
@@ -296,42 +316,62 @@ padding-top: 20px;
         align-items: center;
         justify-content: center;
         align-content: center;
-        width: 400px;
+        width: 308px;
     
     }
     .start{
         width: 308px;
-        padding-left: 70px;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 41px;
+        margin-right: 41px;
+       
        
     }
 
     .buttondiv{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 5px;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 15px; 
+        width: 308px;
+        height: 119px;
     }
 .button{
 
-    font-size: 18px;
-    font-size: 18px;
-    width: 339px;
-    height: 47.14px;}
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 10px;
+    
+    width: 308px;
+    height: 52px;
+font-size: 18px;}
     .button2{
         
-        font-size: 18px;
-        width: 339px;
-        height: 47.14px;
-        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 20px;
+        gap: 10px;
         
-    }
+        width: 308px;
+        height: 52px;
+        font-size: 18px;}
 
     .projects{
         align-items: center;
         justify-content: center;
         padding-top: 106px;
-        padding-left: 80px;
+        padding-left: 0px;
+
+        
     }
     
     
@@ -342,6 +382,12 @@ padding-top: 20px;
         font-family: "Inter";
         font-size: 24px;
         gap: 15px;
+        justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 15px;
+padding-bottom: 27.5px;
+padding-top: 80px;
         
     }
     .project1{
@@ -383,33 +429,36 @@ padding-top: 20px;
     .row1{
         display: flex;
         flex-direction: column;
-        gap: 15px;
-        padding-top: 38px;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 28.65px;
     }
     .row2{
+        display: flex;
         flex-direction: column;
-        gap: 45px;
-        padding-top: 15px;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 28.65px;
     }
 
     .aboutme{
         align-items: center;
         justify-content: center;
         padding-top: 90px;
-        padding-left: 80px;
+        padding-left: 0px;
        
     }
 
     .me{
         display: flex;
-        align-content: center;
         flex-direction: column;
-        gap: 21px;
-        padding-top: 35px;
-        padding-left: 0px;
-        width: 325px;
-        align-items: center;
         justify-content: center;
+        align-items: center;
+        padding: 0px 0px 25px;
+        gap: 41px;
+        
       
     }
 
@@ -419,6 +468,13 @@ padding-top: 20px;
             font-family: "Inter";
             font-size: 24px;
             gap: 15px;
+            display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 15px;
+padding-bottom: 10px;
         }
     .myface{
         height: 325px;
@@ -432,15 +488,21 @@ padding-top: 20px;
     }
     .footer{
         display: flex;
-        align-items: center;
+        flex-direction: row;
         justify-content: center;
-        align-content: center;
-        padding: 0px;
+        align-items: center;
+        padding: 6.82979px;
+        gap: 6.83px;
+        font-size: 14px;
     
     }
     
-    .buttondiv{
+    .buttondiv2{
         display: flex;
-        padding-right: 90px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 20px;
+        gap: 10px;
     }
 }
