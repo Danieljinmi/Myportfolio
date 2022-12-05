@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #323232;
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    z-index: 1000;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.logo {
+    cursor: pointer;
+    width: 252px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    padding: 15px;
+}
+
+.nav_links li a:hover {
+    color: #EED047;
+}
+.body{
+    background-color: #F5F5F5;
+    
+}
+
+.start{
+    display: flex;
+    flex-direction: column;
+    height: 367px;
+    padding-top: 183px;
+    /*width: 1061px;*/
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    padding-left: 174px;
+    padding-right: 174px;
+    
+}
+.text1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    
+}
+.textdiv{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 1015px;
+
+}
+.button{color: #F5F5F5 ;
+    background-color: #323232;
+    width: 204px;
+    height: 55px;
+    
+    font-family: "Inter";
+    
+    font-weight: 500px;
+    font-size: 24px;
+    border-radius: 10px;
+border: none;}
+    .button:hover{ opacity: 50%;
+        
+    }
+
+    .button2 { box-sizing: border-box;
+        color: 323232;
+  
+        height: 55px;
+        width: 294px;
+        left: 720px;
+      /*  top: 518px;  */
+        background-color: #F5F5F5;
+    border: 3px;
+   
+    border: solid;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 24px;
+    gap: 10px;
+    font-family: "Inter";
+    }
+
+    .button2:hover{opacity: 50%;}
+
+    .buttondiv {
+        margin-top: 50px;
+        display: flex;
+        gap: 30px;
+        
+    }
+
+
+
+.projects{
+    align-items: center;
+    justify-content: center;
+    padding-top: 186px;
+    padding-left: 174px;
+}
+
+
+
+
+.pheading{
+    display: flex;
+    flex-direction: row;
+    font-family: "Inter";
+    font-size: 33px;
+    gap: 28px;
+    
+}
+
+.project1{
+    width: 398px;
+    height: 658px; 
+    transition: all .2s ease-in-out;
+}
+.project1:hover{
+    scale: 1.05;
+}
+
+.project2{
+    width: 731px;
+    height: 658px;
+    transition: all .2s ease-in-out;
+}
+.project2:hover{
+    scale: 1.05;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+    padding-top: 38px;
+}
+
+.project3{
+    width: 731px;
+    height: 658px;
+    transition: all .2s ease-in-out;
+}
+.project3:hover{
+    scale: 1.05;
+}
+
+.project4{
+    width: 398px;
+    height: 658px;
+    transition: all .2s ease-in-out;
+}
+.project4:hover{
+    scale: 1.05;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+    padding-top: 34px;  
+}
+
+.text2{
+    display: flex;
+    flex-direction: row;
+    font-family: "Inter";
+    font-size: 33px;
+    gap: 28px;
+}
+
+.aboutme{
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    padding-left: 174px;
+}
+
+.me{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    gap: 41px;
+    padding-top: 35px;
+}
+
+.myface{
+    width: 325px;
+    height: 325px;
+}
+
+.bio{
+    font-family: "Inter";
+    width: 805px;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 24px;
+}
+
+.footer{
+    display: flex;
+    font-family: "Inter";
+    color: #323232;
+    justify-content: center;
+    justify-items: center;
+    height: 50px;
+padding-left: 875px;
+padding-top: 20px;
+}
+
+.project3mobile{
+    display: none;
+}
+
+.project2mobile{
+    display: none;
+}
+
+
+@media only screen and (max-width: 700px)
+{
+    header{
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+    }
+    
+    .logo{
+        margin-left: 30px;
+            margin-top: 10px;
+    }
+    
+    .resume{
+        margin-right: 75px;
+    }
+    .projects0{
+        display: none;
+    }
+.aboutme1{
+    display: none;
+}
+    
+  
+    .text1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        
+    }
+    .textdiv{
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        width: 400px;
+    
+    }
+    .start{
+        width: 308px;
+        padding-left: 70px;
+       
+    }
+
+    .buttondiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+.button{
+
+    font-size: 18px;
+    font-size: 18px;
+    width: 339px;
+    height: 47.14px;}
+    .button2{
+        
+        font-size: 18px;
+        width: 339px;
+        height: 47.14px;
+        margin-top: 5%;
+        
+    }
+
+    .projects{
+        align-items: center;
+        justify-content: center;
+        padding-top: 106px;
+        padding-left: 80px;
+    }
+    
+    
+    
+     .pheading{
+        display: flex;
+        flex-direction: row;
+        font-family: "Inter";
+        font-size: 24px;
+        gap: 15px;
+        
+    }
+    .project1{
+        height: 554.4px;
+        width: 335.34px;
+    }
+    .project2{
+        display: none;
+    }
+    .project3{
+        display: none;
+    }
+
+    .project2mobile{
+        display: flex;
+        height: 554.4px;
+        width: 335.34px;
+        transition: all .2s ease-in-out;
+    }
+    .project2mobile:hover{
+        scale: 1.05;
+    }
+
+    .project3mobile{
+        display: flex;
+        height: 554.4px;
+        width: 335.34px;
+        transition: all .2s ease-in-out;
+    }
+    .project3mobile:hover{
+        scale: 1.05;
+    }
+
+    .project4{
+        height: 554.4px;
+        width: 335.34px;
+    }
+
+    .row1{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding-top: 38px;
+    }
+    .row2{
+        flex-direction: column;
+        gap: 45px;
+        padding-top: 15px;
+    }
+
+    .aboutme{
+        align-items: center;
+        justify-content: center;
+        padding-top: 90px;
+        padding-left: 80px;
+       
+    }
+
+    .me{
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        gap: 21px;
+        padding-top: 35px;
+        padding-left: 0px;
+        width: 325px;
+        align-items: center;
+        justify-content: center;
+      
+    }
+
+    .text2{
+            display: flex;
+            flex-direction: row;
+            font-family: "Inter";
+            font-size: 24px;
+            gap: 15px;
+        }
+    .myface{
+        height: 325px;
+        width: 325px;
+    }
+
+    .bio{
+        width: 325px;
+        font-size: 24px;
+        font-weight: 100;  
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        padding: 0px;
+    
+    }
+    
+    .buttondiv{
+        display: flex;
+        padding-right: 90px;
+    }
+}
