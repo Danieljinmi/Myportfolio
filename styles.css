@@ -115,7 +115,7 @@ border: none;}
         background-color: #F5F5F5;
     border: 3px;
    
-    border: solid;
+    border: solid #323232; 
     border-radius: 10px;
     font-style: normal;
     font-weight: 500px;
@@ -317,17 +317,17 @@ padding-top: 20px;
         justify-content: center;
         align-content: center;
         width: 308px;
-        text-align: center;
+       
     
     }
     .start{
-        width: 308px;
+        width: 335px;
         justify-content: center;
         align-items: center;
         padding-left: 0px;
         padding-right: 0px;
-        margin-left: 41px;
-        margin-right: 41px;
+        margin-left: 25px;
+        margin-right: -20px;
        
        
     }
@@ -350,7 +350,7 @@ padding-top: 20px;
     padding: 15px 20px;
     gap: 10px;
     
-    width: 308px;
+    width: 180px;
     height: 52px;
 font-size: 18px;}
     .button2{
@@ -362,7 +362,7 @@ font-size: 18px;}
         padding: 15px 20px;
         gap: 10px;
         
-        width: 308px;
+        width: 225px;
         height: 52px;
         font-size: 18px;}
 
@@ -471,19 +471,25 @@ padding-top: 80px;
             font-size: 24px;
             gap: 15px;
             display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 15px;
-padding-bottom: 10px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            gap: 15px;
+            padding-bottom: 10px;
+      }
 
-        }
+    .pheading{
+        margin-right: 90px;
+    }
+
     .myface{
         height: 325px;
         width: 325px;
     }
-
+   .text2{
+    margin-right: 150px;
+   }
     .bio{
         width: 325px;
         font-size: 24px;
