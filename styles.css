@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
 
 *{
@@ -8,7 +8,7 @@
 }
 
 li, a{
-    font-family: "Inter";
+    font-family: "Raleway";
     font-weight: 400;
     font-size: 16px;
     color: #F5F5F5;
@@ -35,7 +35,7 @@ html{
 
 
 .logo {
-    cursor: pointer;
+    cursor: poRaleway;
     width: 252px;
     height: 40px;
     margin-top: 10px;
@@ -96,7 +96,7 @@ html{
     width: 204px;
     height: 55px;
     
-    font-family: "Inter";
+    font-family: "Raleway";
     
     font-weight: 500px;
     font-size: 24px;
@@ -122,7 +122,7 @@ border: none;}
     font-weight: 500px;
     font-size: 24px;
     gap: 10px;
-    font-family: "Inter";
+    font-family: "Raleway";
     }
 
     .button2:hover{opacity: 50%;}
@@ -150,7 +150,7 @@ border: none;}
 .pheading{
     display: flex;
     flex-direction: row;
-    font-family: "Inter";
+    font-family: "Raleway";
     font-size: 33px;
     gap: 28px;
     
@@ -209,7 +209,7 @@ border: none;}
 .text2{
     display: flex;
     flex-direction: row;
-    font-family: "Inter";
+    font-family: "Raleway";
     font-size: 33px;
     gap: 28px;
 }
@@ -235,7 +235,7 @@ border: none;}
 }
 
 .bio{
-    font-family: "Inter";
+    font-family: "Raleway";
     width: 805px;
     font-size: 24px;
     font-weight: 400;
@@ -244,7 +244,7 @@ border: none;}
 
 .footer{
     display: flex;
-    font-family: "Inter";
+    font-family: "Raleway";
     color: #323232;
     justify-content: center;
     justify-items: center;
@@ -257,7 +257,7 @@ padding-top: 20px;
     width: 204px;
     height: 55px;
     
-    font-family: "Inter";
+    font-family: "Raleway";
     
     font-weight: 500px;
     font-size: 24px;
@@ -310,7 +310,7 @@ padding-top: 20px;
     
   
     .text1{
-        font-family: 'Inter';
+        font-family: 'Raleway';
         font-style: normal;
         font-weight: 400;
         font-size: 28px;
@@ -385,7 +385,7 @@ font-size: 18px;}
      .pheading{
         display: flex;
         flex-direction: row;
-        font-family: "Inter";
+        font-family: "Raleway";
         font-size: 24px;
         gap: 15px;
         justify-content: center;
@@ -472,7 +472,7 @@ padding-top: 80px;
     .text2{
             display: flex;
             flex-direction: row;
-            font-family: "Inter";
+            font-family: "Raleway";
             font-size: 24px;
             gap: 15px;
             display: flex;
