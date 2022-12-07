@@ -267,7 +267,8 @@ padding-top: 20px;
     
 }
 .button3:hover{
-    opacity: 50%;
+    background-color: #EED047;
+    color: #323232;
 }
 .buttondiv2{
     padding-top: 20px;
