@@ -100,7 +100,7 @@ html{
     
     font-weight: 500px;
     font-size: 24px;
-    border-radius: 10px;
+    border-radius: 30px;
 border: none;}
     .button:hover{ opacity: 50%;
         
@@ -117,7 +117,7 @@ border: none;}
     border: 3px;
    
     border: solid #323232; 
-    border-radius: 10px;
+    border-radius: 30px;
     font-style: normal;
     font-weight: 500px;
     font-size: 24px;
@@ -261,7 +261,7 @@ padding-top: 20px;
     
     font-weight: 500px;
     font-size: 24px;
-    border-radius: 10px;
+    border-radius: 30px;
     color: #F5F5F5 ;
     
 }
