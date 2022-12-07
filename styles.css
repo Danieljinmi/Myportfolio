@@ -103,7 +103,7 @@ html{
     font-size: 24px;
     border-radius: 30px;
 border: none;}
-    .button:hover{ opacity: 50%;
+    .button:hover{ color: #EED047;
         
     }
 
@@ -126,7 +126,7 @@ border: none;}
     font-family: "Raleway";
     }
 
-    .button2:hover{opacity: 50%;}
+    .button2:hover{background-color: #EED047;}
 
     .buttondiv {
         margin-top: 50px;
