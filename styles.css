@@ -272,6 +272,8 @@ padding-top: 20px;
 }
 .buttondiv2{
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .project3mobile{
@@ -515,7 +517,7 @@ padding-top: 80px;
     
     .buttondiv2{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 15px 20px;
