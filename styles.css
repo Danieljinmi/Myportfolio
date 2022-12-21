@@ -20,7 +20,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    background-color: #323232E5;
+    background-color: #121212E5;
     height: 30px;
     width: 100%;
     position: fixed;
@@ -76,26 +76,26 @@ html{
     justify-content: center;
     align-content: center;
     align-items: flex-start;
-    padding-left: 174px;
-    padding-right: 174px;
+    padding-left: 279px;
+    padding-right: 279px;
     
 }
 .text1{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 52px;
     
 }
 .textdiv{
     align-items: center;
     justify-content: center;
     align-content: center;
-    width: 1015px;
+    width: 955px;
 
 }
 .button{color: #F5F5F5 ;
-    background-color: #323232;
+    background-color: #121212;
     width: 204px;
     height: 55px;
     
@@ -110,7 +110,7 @@ border: none;}
     }
 
     .button2 { box-sizing: border-box;
-        color: #323232;
+        color: #121212;
   
         height: 55px;
         width: 294px;
@@ -119,7 +119,7 @@ border: none;}
         background-color: #F5F5F5;
     border: 3px;
    
-    border: solid #323232; 
+    border: solid #121212; 
     border-radius: 30px;
     font-style: normal;
     font-weight: 500px;
@@ -143,8 +143,11 @@ border: none;}
 .projects{
     align-items: center;
     justify-content: center;
-    padding-top: 186px;
-    padding-left: 174px;
+    justify-items: center;
+    align-content: center;
+    padding-top: 150px;
+    padding-left: 279px;
+   
 }
 
 
@@ -160,8 +163,8 @@ border: none;}
 }
 
 .project1{
-    width: 398px;
-    height: 658px; 
+    width: 335.37px;
+    height: 554.46px; 
     transition: all .2s ease-in-out;
 }
 .project1:hover{
@@ -169,8 +172,8 @@ border: none;}
 }
 
 .project2{
-    width: 731px;
-    height: 658px;
+    width: 615.98px;
+    height: 554.46px;
     transition: all .2s ease-in-out;
 }
 .project2:hover{
@@ -185,8 +188,8 @@ border: none;}
 }
 
 .project3{
-    width: 731px;
-    height: 658px;
+    width: 615.98px;
+    height: 554.46px;
     transition: all .2s ease-in-out;
 }
 .project3:hover{
@@ -194,8 +197,8 @@ border: none;}
 }
 
 .project4{
-    width: 398px;
-    height: 658px;
+    width: 335.37px;
+    height: 554.46px; 
     transition: all .2s ease-in-out;
 }
 .project4:hover{
@@ -214,14 +217,17 @@ border: none;}
     flex-direction: row;
     font-family: "Raleway";
     font-size: 33px;
-    gap: 28px;
+    gap: 20px;
+    
+    
 }
 
 .aboutme{
     align-items: center;
     justify-content: center;
     padding-top: 120px;
-    padding-left: 174px;
+    padding-left: 291px;
+    
 }
 
 .me{
@@ -230,25 +236,28 @@ border: none;}
     flex-direction: row;
     gap: 41px;
     padding-top: 35px;
+    
 }
 
 .myface{
-    width: 325px;
-    height: 325px;
+    width: 236.19px;
+    height: 236.19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .bio{
     font-family: "Raleway";
-    width: 805px;
-    font-size: 24px;
     font-weight: 400;
     padding-top: 24px;
+    width: 660.19px;
+    font-size: 20px;
 }
 
 .footer{
     display: flex;
     font-family: "Raleway";
-    color: #323232;
+    color: #121212;
     justify-content: center;
     justify-items: center;
     height: 50px;
@@ -256,7 +265,7 @@ padding-left: 875px;
 padding-top: 20px;
 }
 .button3{
-    background-color: #323232;
+    background-color: #121212;
     width: 204px;
     height: 55px;
     
@@ -271,13 +280,13 @@ padding-top: 20px;
 .button3:hover{
     background-color: #EED047;
     
-    color: #323232;
+    color: #121212;
 }
 .buttondiv2{
     padding-top: 20px;
     display: flex;
     flex-direction: column;
-    padding-left: 60px;
+    padding-left: 20px;
 }
 
 .project3mobile{
@@ -499,6 +508,7 @@ padding-top: 80px;
     .myface{
         height: 325px;
         width: 325px;
+        margin-bottom: 2px;
     }
    .text2{
     margin-right: 150px;
