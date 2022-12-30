@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -6,16 +8,12 @@
 }
 
 li, a{
-    font-family: "Poppins";
+    font-family: "Raleway";
     font-weight: 400;
     font-size: 16px;
     color: #F5F5F5;
     text-decoration: none;
 }
-
-
-
-
 
 header {
     display: flex;
@@ -35,8 +33,11 @@ html{
     scroll-behavior: smooth;
 }
 
+
+
+
 .logo {
-    cursor: pointer;
+    cursor: poRaleway;
     width: 252px;
     height: 40px;
     margin-top: 10px;
@@ -58,265 +59,244 @@ html{
 }
 
 .nav_links li a:hover {
-    color: #22A39F;
+    color: #EED047;
 }
-
 .body{
-    background-color: #121212;
+    background-color: #F5F5F5;
+    
 }
 
 .start{
     display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-gap: 11px;
-width: 1156px;
-height: 251.99px;
-margin-left: 250px;
-padding-top: 310px;
-}
-
-.intro{
-    font-family: Poppins;
-    font-weight: 700;
-    font-size: 70px;
+    flex-direction: column;
+    height: 367px;
+    padding-top: 183px;
+    /*width: 1061px;*/
     align-items: center;
-    width: 469px;
-    height: 105px;    
-    color: #F5F5F5;
-}
-
-.in2{   
-width: 636px;
-height: 45px;
-color: #F5F5F5;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 30px;
-}
-
-.in3{
-    width: 636px;
-height: 60px;
-color: #F5F5F5;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 30px;
-}
-
-.textdiv{
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 20px;
-}
-
-.button{display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-content: center;
     align-items: flex-start;
-    padding: 20px;
-    gap: 10px;
+    padding-left: 279px;
+    padding-right: 279px;
     
-    width: 200px;
-height: 67px;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 18px;
-    border: 2px solid #F5F5F5;
-    
-    background-color: #121212;
-    color: #F5F5F5;
-    border-radius: 10px;
-    gap: 20px;}
-
-
-    .button:hover{ background-color: #22A39F;
-        border: 2px solid #22A39F;
-    color: #121212;}
-
-  
-
-.tools{
-    width: 394px;
-height: 251.99px;}
-
-.buttons1{
-    display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 31px;
-padding-top: 10px;
 }
+.text1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    
+}
+.textdiv{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 955px;
+
+}
+.button{color: #F5F5F5 ;
+    background-color: #121212;
+    width: 204px;
+    height: 55px;
+    
+    font-family: "Raleway";
+    
+    font-weight: 500px;
+    font-size: 24px;
+    border-radius: 30px;
+border: none;}
+    .button:hover{ color: #EED047;
+        
+    }
+
+    .button2 { box-sizing: border-box;
+        color: #121212;
+  
+        height: 55px;
+        width: 294px;
+        left: 720px;
+      /*  top: 518px;  */
+        background-color: #F5F5F5;
+    border: 3px;
+   
+    border: solid #121212; 
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 24px;
+    gap: 10px;
+    font-family: "Raleway";
+    }
+
+    .button2:hover{background-color: #EED047;}
+
+    .buttondiv {
+        margin-top: 50px;
+        display: flex;
+        gap: 30px;
+        
+    }
+
+
+
+
+.projects{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    padding-top: 150px;
+    padding-left: 279px;
+   
+}
+
+
+
 
 .pheading{
     display: flex;
-flex-direction: row;
-padding-top: 290px;
-margin-left: 250px;
-gap: 10px;
-}
-
-.arrow{
-    width: 44px;
-height: 44px;
-}
-.select{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 33px;
-color: #F5F5F5;
-}
-
-
-.pro1{
-    width: 1076px;
-height: 392.28px;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    justify-items: center;
-}
-.pro2{
-    width: 1093.01px;
-height: 392.28px;
-
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    justify-items: center;
-  
-}
-.pro3{
-    width: 1032px;
-height: 392.28px;
-
-    
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    justify-items: center;
+    flex-direction: row;
+    font-family: "Raleway";
+    font-size: 33px;
+    gap: 28px;
     
 }
 
-.pro4{
-    width: 1093.01px;
-height: 410px;
- 
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    justify-items: center; 
+.project1{
+    width: 335.37px;
+    height: 554.46px; 
+    transition: all .2s ease-in-out;
+}
+.project1:hover{
+    scale: 1.05;
 }
 
+.project2{
+    width: 615.98px;
+    height: 554.46px;
+    transition: all .2s ease-in-out;
+}
+.project2:hover{
+    scale: 1.05;
+}
 
-
-.projectdiv{
-   
-  padding-top: 50px;
-    padding-left: 228px;
-    gap: 50px;
+.row1{
     display: flex;
-    flex-direction: column
+    flex-direction: row;
+    gap: 34px;
+    padding-top: 38px;
+}
+
+.project3{
+    width: 615.98px;
+    height: 554.46px;
+    transition: all .2s ease-in-out;
+}
+.project3:hover{
+    scale: 1.05;
+}
+
+.project4{
+    width: 335.37px;
+    height: 554.46px; 
+    transition: all .2s ease-in-out;
+}
+.project4:hover{
+    scale: 1.05;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-top: 34px;  
+}
+
+.text2{
+    display: flex;
+    flex-direction: row;
+    font-family: "Raleway";
+    font-size: 33px;
+    gap: 20px;
+    
+    
 }
 
 .aboutme{
-    display: flex;
-    flex-direction: row;
-    padding-top: 40px;
-    margin-left: 250px;
-    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    padding-left: 291px;
+    
 }
 
 .me{
     display: flex;
+    align-content: center;
     flex-direction: row;
-    align-items: center;
-    padding: 0px;
     gap: 41px;
-    margin-left: 250px;
-    width: 1134px;
-    height: 288px;
+    padding-top: 35px;
+    
 }
 
 .myface{
-    width: 288px;
-    height: 288px;
+    width: 236.19px;
+    height: 236.19px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .bio{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    color: #F5F5F5;
-   
-}
-.button3{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
-    
-    width: 200px;
-height: 67px;
-    font-family: 'Poppins';
+    font-family: "Raleway";
     font-weight: 400;
-    font-size: 18px;
-    border: 2px solid #F5F5F5;
-    
-    background-color: #121212;
-    color: #F5F5F5;
-    border-radius: 10px;
-    gap: 20px;}
-
-
-    .button3:hover{ background-color: #22A39F;
-        border: 2px solid #22A39F;
-    color: #121212;}
-.mine{
-    display: flex;
-   gap: 20px;
-   flex-direction: column;
-}
-
-.me{
-    padding-top: 50px;
+    padding-top: 24px;
+    width: 660.19px;
+    font-size: 20px;
 }
 
 .footer{
     display: flex;
-    font-family: "Poppins";
-    color: #F5F5F5;
+    font-family: "Raleway";
+    color: #121212;
     justify-content: center;
     justify-items: center;
     height: 50px;
 padding-left: 875px;
 padding-top: 20px;
 }
-
-.p1mob{
-    display: none;
+.button3{
+    background-color: #121212;
+    width: 204px;
+    height: 55px;
+    
+    font-family: "Raleway";
+    
+    font-weight: 500px;
+    font-size: 24px;
+    border-radius: 30px;
+    color: #F5F5F5 ;
+    
+}
+.button3:hover{
+    background-color: #EED047;
+    
+    color: #121212;
+}
+.buttondiv2{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
 }
 
-.p2mob{
+.project3mobile{
     display: none;
 }
-.p3mob{
+
+.project2mobile{
     display: none;
 }
-.p4mob{
-    display: none;
-}
+
 
 @media only screen and (max-width: 490px)
 {
@@ -342,173 +322,221 @@ padding-top: 20px;
     display: none;
 }
 
-.start{
-    width: 325px;
-height: 452.97px;
-flex-direction: column-reverse;
-padding-top: 143px;
-padding-left: 0px;
-margin-left: 33px;
-margin-right: -38px;
-gap: 40px;
-}
 
-.textdiv{
-    width: 325px;
-height: 200px;
-gap: 10px;
-}
 
-.intro{
-    font-size: 30px;
-    width: 201px;
-    height: 45px;
-}
+    
+  
+    .text1{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        font-family: 'Raleway';
+        width: 751px;
+        
+    }
+    .textdiv{
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        width: 308px;
+       
+    
+    }
+    .start{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 11px; 
+    }
 
-.in2{    
-width: 325px;
-height: 72px;
-font-size: 24px;
-}
+    .tools{
+        width: 394px;
+        height: 251.99px;
+    }
 
-.in3{
-    width: 325px;
-height: 63px;
-font-size: 14px;
-}
-.tools{
-    width: 161px;
-height: 102.97px;
-
-}
-
+    .buttondiv{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 15px; 
+        width: 308px;
+        height: 119px;
+    }
 .button{
-    width: 325px;
+
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-.buttons1{
-    padding-top: 32px;
-}
+    padding: 15px 20px;
+    gap: 10px;
+    
+    width: 180px;
+    height: 52px;
+font-size: 18px;}
+    .button2{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 20px;
+        gap: 10px;
+        
+        width: 225px;
+        height: 52px;
+        font-size: 18px;}
 
-.pheading{
-    padding-top: 200px;
-    display: flex;
-flex-direction: row;
-justify-content: center;
+    .projects{
+        align-items: center;
+        justify-content: center;
+        padding-top: 106px;
+        padding-left: 0px;
+
+        
+    }
+    
+    
+    
+     .pheading{
+        display: flex;
+        flex-direction: row;
+        font-family: "Raleway";
+        font-size: 24px;
+        gap: 15px;
+        justify-content: center;
 align-items: center;
-gap: 10px;
-padding-right: 140px;
-}
+padding: 0px;
+gap: 15px;
+padding-bottom: 27.5px;
+padding-top: 80px;
+        
+    }
+    .project1{
+        height: 554.4px;
+        width: 335.34px;
+    }
+    .project2{
+        display: none;
+    }
+    .project3{
+        display: none;
+    }
 
-.select{font-size: 18px;}
+    .project2mobile{
+        display: flex;
+        height: 554.4px;
+        width: 335.34px;
+        transition: all .2s ease-in-out;
+       
+    }
+    .project2mobile:hover{
+        scale: 1.05;
+    }
 
-.pro1{
-    display: none;
-}
+    .project3mobile{
+        display: flex;
+        height: 554.4px;
+        width: 335.34px;
+        transition: all .2s ease-in-out;
+    }
+    .project3mobile:hover{
+        scale: 1.05;
+    }
 
-.pro2{
-    display: none;
-}
-.pro3{
-    display: none;
-}
-.pro4{
-    display: none;
-}
-.projectdiv{
-    padding-left: 33px;
-}
-.p1mob{display: flex;
+    .project4{
+        height: 554.4px;
+        width: 335.34px;
+    }
 
-width: 333px;
-height: 345px;}
+    .row1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
+    }
+    .row2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 28.65px;
+    }
 
-.p2mob{
-    display: block;
-align-items: center;
-justify-content: center;
-    width: 330px;
-height: 343px;
-}
+    .aboutme{
+        align-items: center;
+        justify-content: center;
+        padding-top: 90px;
+        padding-left: 0px;
+       
+    }
 
-.p3mob{
-    display: block;
-align-items: center;
-justify-content: center;
+    .me{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px 25px;
+        gap: 41px;
+        
+      
+    }
 
-width: 335px;
-height: 463px;}
+    .text2{
+            display: flex;
+            flex-direction: row;
+            font-family: "Raleway";
+            font-size: 24px;
+            gap: 15px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            gap: 15px;
+            padding-bottom: 10px;
+      }
 
-.p4mob{
-    display: block;
-align-items: center;
-justify-content: center;
-    width: 331px;
-height: 345px;
-}
-.projectdiv{
-    width: 335px;
-height: 1690px;
-gap: 40px;
-padding-top: 17px;
-}
-  .myface{
-    width: 325px;
-height: 325px;
-    margin-bottom: 2px;
-}
+    .pheading{
+        margin-right: 90px;
+    }
 
-.pheading{
-    margin-left: 0px;
-}
-.aboutme{
-    margin-left: 0px;
-    padding-top: 40px;
-    display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-gap: 10px;
-padding-right: 140px;
-}
-
-.select{
-    font-size: 18px;
-}
-
-.mine{
-    display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 325px;
-}
-
-.bio{
-    font-size: 14px;
-}
-
-.me{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 325px;
-    margin-left: 33px;
-    margin-right: 0px;
-    margin-top: 150px;
-}
-.footer{
-    padding-left: 0px;
-    margin-top: 200px;
-}
-.foot{
-    font-size: 12px;
-    margin-top: 30px;
-}
-
-.aboutme{
-    padding-top: 10px;
-}
+    .myface{
+        height: 325px;
+        width: 325px;
+        margin-bottom: 2px;
+    }
+   .text2{
+    margin-right: 150px;
+   }
+    .bio{
+        width: 325px;
+        font-size: 24px;
+        font-weight: 100;  
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 6.82979px;
+        gap: 6.83px;
+        font-size: 14px;
+    
+    }
+    
+    .buttondiv2{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 15px 20px;
+        gap: 10px;
+    }
 }
